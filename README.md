@@ -87,9 +87,12 @@ chest_xray/
 git clone https://github.com/your-username/cnn-xray.git
 cd cnn-xray
 pip install -r requirements.txt
+
 ▶️ How to Run
+
 🧪 Synthetic Version
 python cnn_synthetic.py
+
 🏥 Real Dataset Version
 
 Make sure dataset path is correct:
@@ -99,6 +102,7 @@ load_real_dataset("chest_xray")
 Then run:
 
 python cnn_real.py
+
 📈 Outputs
 
 All outputs are saved in:
@@ -113,11 +117,13 @@ Weekly performance comparison
 Sample predictions
 CNN architecture diagram
 Model interpretation summary
+
 📊 Results Summary
 Adam optimizer → Faster convergence, higher accuracy
 SGD optimizer → Slower but stable learning
 Data augmentation improves generalization significantly
 CNN effectively detects pneumonia patterns in X-rays
+
 📉 Evaluation Metrics
 Accuracy
 Precision
@@ -125,17 +131,20 @@ Recall
 F1-score
 Confusion Matrix
 Temporal performance (weekly batches)
+
 🔬 Key Insights
 Data augmentation reduces overfitting
 Adam performs better for this dataset
 CNN learns opacity patterns linked to pneumonia
 Synthetic dataset is useful for debugging pipeline
+
 📌 Future Improvements
 Add Grad-CAM explainability
 Use pretrained models (ResNet, EfficientNet)
 Deploy using Flask / FastAPI
 Convert model to TensorFlow Lite
 Improve class imbalance handling
+
 👨‍💻 Author
 
 Developed for academic Deep Learning research and portfolio project.
