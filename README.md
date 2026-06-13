@@ -1,4 +1,4 @@
-# 🫁 CNN Chest X-Ray Pneumonia Detection
+# CNN Chest X-Ray Pneumonia Detection
 
 A Deep Learning project using Convolutional Neural Networks (CNNs) to classify chest X-ray images into:
 
