@@ -45,14 +45,14 @@ The CNN consists of:
 
 ## 📂 Project Structure
 
-
+```
 cnn-xray/
 │
 ├── cnn_synthetic.py # Synthetic dataset version
 ├── cnn_real.py # Real dataset version (Kaggle)
 ├── outputs/ # Generated plots & results
 └── README.md
-
+```
 
 ---
 
@@ -68,7 +68,7 @@ Download from:
 https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
 Folder structure:
-
+```
 chest_xray/
 ├── train/
 │ ├── NORMAL/
@@ -77,7 +77,7 @@ chest_xray/
 │ ├── NORMAL/
 │ └── PNEUMONIA/
 └── val/
-
+```
 
 ---
 
